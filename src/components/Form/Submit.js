@@ -1,11 +1,11 @@
 import styles from "../../styles/Submit.module.css";
 
-function SubmitButton() {
+function Submit({ text }) {
   return (
     <div>
-      <button className={styles.btn}>Criar Projeto</button>
+      <button className={styles.btn}>{text}</button>
     </div>
   );
 }
 
-export default SubmitButton;
+export default Submit;

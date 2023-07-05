@@ -1,11 +1,17 @@
 import styles from "../../styles/Select.module.css";
 
-function Select() {
+function Select({ text, name, options, handleOnChange, value }) {
   return (
     <div className={styles.container}>
-      <label htmlFor="">Selecione uma categoria:</label>
-      <select>
+      <label htmlFor={name}>{text}:</label>
+      <select
+        name={name}
+        id={name}
+        onChange={handleOnChange}
+        value={value || ""}
+      >
         <option>Selecione uma opção</option>
+       
       </select>
     </div>
   );

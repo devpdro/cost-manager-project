@@ -1,10 +1,17 @@
 import styles from "../../styles/Input.module.css";
 
-function Input() {
+function Input({ type, text, name, placeholder, handleOnChange, value }) {
   return (
     <div className={styles.container}>
-      <label htmlFor="">Nome do projeto: </label>
-      <input type="text" name="" id="" />
+      <label htmlFor={name}>{text}:</label>
+      <input
+        type={type}
+        name={name}
+        id={name}
+        placeholder={placeholder}
+        onChange={handleOnChange}
+        value={value}
+      />
     </div>
   );
 }
