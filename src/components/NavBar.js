@@ -1,6 +1,6 @@
 import Logo from "../assets/costs_logo.png";
 
-import styles from "./NavBar.module.css";
+import styles from "../styles/NavBar.module.css";
 
 import Container from "./Container";
 
