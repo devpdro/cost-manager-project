@@ -1,0 +1,21 @@
+.container {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.container label {
+  margin-bottom: 0.6em;
+  font-weight: bold;
+}
+
+.container input {
+  padding: 0.7em;
+  border-radius: 0;
+  border: none;
+}
+
+.container input::placeholder {
+  color: #7b7b7b;
+}
