@@ -1,29 +1,29 @@
-.home_container {
-  width: 100%;
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   justify-content: center;
-  padding: 4em;
+  padding: 4em 2rem;
 }
 
-.home_container h1 {
+.container h1 {
   font-size: 2.5em;
   margin-bottom: 0.5em;
 }
 
-.home_container h1 span {
+.container h1 span {
   color: #ffbb33;
   padding: 0 0.2em;
-  background-color: #222;
+  font-weight: 900;
 }
 
-.home_container p {
+.container p {
   margin-bottom: 1.5em;
   color: #7b7b7b;
 }
 
-.home_container img {
+.container img {
   width: 350px;
-  margin: 2em 0;
+  margin: 3rem 3rem 1.2rem 3rem;
 }

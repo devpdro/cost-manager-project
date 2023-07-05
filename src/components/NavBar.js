@@ -11,7 +11,7 @@ function NavBar() {
     <div className={styles.navbar}>
       <Container>
         <Link to="/">
-          <img src={Logo} alt="Costs" />
+          <img className={styles.img} src={Logo} alt="Costs" />
         </Link>
         <ul className={styles.list}>
           <li className={styles.item}>
