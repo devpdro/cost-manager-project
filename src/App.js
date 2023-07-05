@@ -1,18 +1,17 @@
-import NavBar from './components/NavBar'
-
+import { Outlet } from "react-router-dom";
 // import Home from './pages/Home'
 // import Projects from './pages/Projects'
 // import Contact from './pages/Contact';
 
-import { Outlet } from 'react-router-dom';
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div>
       <NavBar />
-      <h1>React Rounter</h1>
       <Outlet />
-      <h1>Footer</h1>
+      <Footer />
     </div>
   );
 }
